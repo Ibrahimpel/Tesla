@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(./fonts/Orbitron-Medium.ttf);
+    font-family: Orbitron;
+}
+
+
+/*---First Section---*/
+
+.first-part {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.tesla-logo {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 3px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    position: relative;
+    color: white;
+}
+
+
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+    transition: width 1s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+.sign-in {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+
+
+
+
+h1 {
+    margin-top: 70px;
+    margin-left: 90px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.online {
+    margin-left: 90px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.touchless {
+    color: gray;
+}
+.btn-1 {
+    margin-left: 90px;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: 1.5px solid white;
+    background: none;
+    color: white;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    background: rgba(128, 128, 128, 0.3);
+    border: none;
+}
+
+/*---Second Section---*/
+.second-part {
+    width: 100%;
+}
+
+.first-img-div {
+    width: 100%;
+    height: 50%;
+    background: white;
+    display: flex;
+}
+
+.one-jpg {
+    width: 50%;
+}
+
+.mod-s {
+    width: 50%;
+    height: 100%;
+    padding: 90px 80px 60px 60px;
+}
+
+.mod-s-h2, .mod-y-h2, .mod-3-h2, .mod-x-h2 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+
+.custom-order {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+hr {
+    width: 250px;
+}
+
+
+
+.second-img-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+
+.two-jpg {
+    width: 50%;
+}
+
+.mod-y {
+    width: 50%;
+    height: 100%;
+    padding: 90px 80px 60px 60px;
+}
+
+/*---Third Section---*/
+
+.third-part {
+    width: 100%;
+}
+
+
+
+.third-img-div {
+    width: 100%;
+    display: flex;
+}
+
+.three-jpg {
+    width: 50%;
+}
+
+.mod-3 {
+    width: 50%;
+    height: 100%;
+    padding: 90px 80px 60px 60px;
+}
+
+.fourth-img-div {
+    width: 100%;
+    display: flex;
+}
+
+.mod-x {
+    width: 50%;
+    height: 100%;
+    padding: 90px 80px 60px 60px;
+}
+
+.four-jpg {
+    width: 50%;
+}
+
+/*---Fourth Section---*/
+
+.fourth-part {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 40px 40px 80px;
+}
+
+.stay {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.transparent {
+    width: 500px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 65px;
+}
+
+.learn {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.hr {
+    width: 200px;
+}
+
+.park-text {
+    color: white;
+}
+
+/*---Fifth Section---*/
+
+.fifth-part {
+    width: 100%;
+    height: 100vh;
+    padding: 60px 150px;
+}
+
+.accessories {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.access-div {
+    width: 100%;
+    height: 71%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.charging {
+    width: 32%;
+    height: 100%;
+    background: url(./img/charging.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 310px 20px 20px 30px;
+}
+
+.charging-h3 {
+    color: white;
+}
+
+.charging-hr {
+    width: 150px;
+}
+
+.vehicle {
+    width: 32%;
+    height: 50%;
+    background: url(./img/vehicle.jpg);
+    background-size: cover;
+    padding: 140px 20px 20px 30px;
+}
+
+
+.vehicle-h3 {
+    color: white;
+}
+
+.vehicle-hr {
+    width: 150px;
+}
+
+.apparel {
+    width: 32%;
+    height: 50%;
+    background: url(./img/apparel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---Sixth Section---*/
+
+.sixth-part {
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    display: flex;
+}
+
+.upon {
+    width: 50%;
+    height: 100%;
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 200px 80px 120px 80px;
+}
+
+.about-h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.about-p {
+    margin-bottom: 100px;
+}
+
+
+.dot {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+/*---Seventh Section---*/
+
+.seventh-part {
+    width: 100%;
+    height: 160vh;
+    padding: 130px 0;
+}
+
+
+.publications {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.read-all {
+    margin-bottom: 25px;
+    margin-left: 70px;
+}
+
+.cars {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+.first {
+    width: 32%;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+.first-img {
+    width: 100%;
+}
+
+.publications-h3 {
+    padding: 30px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.second-img {
+    width: 100%;
+}
+
+
+.third-img {
+    width: 100%;
+}
+
+
+/*---Last Section---*/
+
+.last-part {
+    width: 100%;
+    height: 70vh;
+    background: black;
+    padding: 80px 120px 30px 80px;
+    display: flex;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4 {
+    width: 20%;
+    height: 100%;
+}
+
+
+.footer-1 {
+    color: white;
+    position: relative;
+}
+
+.footer-2 {
+    color: white;
+    position: relative;
+}
+
+
+.footer-logo {
+    width: 120px;
+}
+
+.copy {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.footer-model {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+
+.footer-3, .footer-4 {
+    color: gray;
+}
+
+.footer-model-2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+
